@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+}
+
+
+.toolbar{
+    background-color: bisque;
+    display:flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    width:90vw;
+    height:90px;
+    margin: 30px auto;
+    border-radius: 10px; 
+}
+#icon{
+   height:40px;
+} 
+#icon:hover{
+    cursor: pointer;
+    height: 45px;
+}
+.color-container{
+     display: flex; 
+     border: 2px solid black; 
+     width:160px;
+     height:40px;
+     justify-content: space-evenly;
+     align-items: center;
+     border-radius: 5px; 
+}
+#red{
+    border: 2px solid black;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: lightcoral;
+}
+#blue{
+    border: 2px solid black;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+}
+#green{
+    border: 2px solid black;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: green;
+}
+#yellow{
+    border: 2px solid black;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: yellow;
+} 
+.options{
+    display: none;
+    margin:0 auto;
+}
+.size-box{
+    height: 25px;
+    width: 120px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.size{
+    border-radius: 50%;
+    background-color: black;
+    
+}
+.size:hover{
+    cursor: pointer;
+    border: 3px solid palevioletred;
+    
+}
+.size1{
+    height:10px;
+    width:10px;
+}
+.size2{
+    height:14px;
+    width:14px;
+}
+.size3{
+    height:18px;
+    width:18px;
+}
+.size4{
+    height:22px;
+    width:22px;
+}
+.color:hover{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+.shape-box{
+    height: 40px;
+    width: 120px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sticky{
+    height: 200px;
+    width:190px;
+
+    /* page se hatke dikhne ke liye  */
+    position: absolute;
+    left: 30vw;
+    top:20vh;
+}
+.sticky-header{
+height: 15%;
+display: flex;
+align-items: center;
+justify-content:right;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sticky-header *{
+margin-right: 5px;
+height: 55%;
+width:9%
+
+}
+.sticky-header *:hover{
+cursor: pointer;
+transform: scale(1.2);
+}
+.min{
+background-color: lightgreen;
+border-radius: 50%;
+}
+.close{
+background-color: rgb(248, 106, 106);
+border-radius: 50%;
+}
+.textarea{
+height: 84%;
+width: 98%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+outline: none;
+border: none;
+
+}

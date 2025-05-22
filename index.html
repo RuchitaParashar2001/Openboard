@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenBoard</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <h1>Canvas Board</h1> -->
+    <div class="toolbar">
+        <div class="tool" id="pencil">
+            <img src="icons\pencil-png-643.png" id="icon" alt="" srcset="">
+
+            <div class="options">
+                <div class="size-box">
+                    <!-- .size1+.size2+.size3+.size4 -->
+                    <div class="size1 size" sizeval="3"></div>
+                    <div class="size2 size" sizeval="8"></div>
+                    <div class="size3 size" sizeval="17"></div>
+                    <div class="size4 size" sizeval="25"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tool" id="eraser">
+            <img src="icons\eraser-icon-23387.png" id="icon" alt="" srcset="">
+
+            <div class="options">
+                <div class="size-box">
+                    <!-- .size1+.size2+.size3+.size4 -->
+                    <div class="size1 size" sizeval="3"></div>
+                    <div class="size2 size" sizeval="8"></div>
+                    <div class="size3 size" sizeval="17"></div>
+                    <div class="size4 size" sizeval="25"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tool" id="shapes">
+            <img src="icons\shapes.png" alt="" id="icon" srcset="">
+            <div class="options">
+                <div class="size-box">
+                    <!-- .size1+.size2+.size3+.size4 -->
+                    <div class="size1 size" sizeval="3"></div>
+                    <div class="size2 size" sizeval="8"></div>
+                    <div class="size3 size" sizeval="17"></div>
+                    <div class="size4 size" sizeval="25"></div>
+                </div>
+                <div class="shape-box">
+                    <div class="shape rect">
+                        <img src="icons\rect.ico" id="icon" alt="" srcset="">
+                    </div>
+                    <div class="shape line">
+                        <img src="icons\Line-icon.png" id="icon" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="tool" id="sticky">
+            <img src="icons\stickyTool.png" id="icon" alt="" srcset="">
+            <div></div>
+        </div>
+        <div class="color-container">
+            <div class="color" id="red"  colorval="lightcoral"></div>
+            <div class="color" id="blue"  colorval="lightseagreen"></div>
+            <div class="color" id="green" colorval="green"></div>
+            <div class="color" id="yellow" colorval="yellow"></div>
+        </div>
+        <div class="fill-color">
+            <img src="icons\fill-colour.png" id="icon" alt="" srcset="">
+        </div>
+        <div class="tool" id="download">
+            <img src="icons\Download_alt_font_awesome.svg.png" id="icon" alt="" srcset="">
+        </div>
+       
+
+
+
+    </div>
+
+
+    <canvas></canvas>
+
+    <script src="setup.js"></script>
+    <script src="toolManip.js"></script>
+    <script src="color.js"></script>
+    <script src="size.js"></script>
+    <script src="sticky.js"></script>
+</body>
+
+</html>
